@@ -8,5 +8,11 @@
     "description": "TeamRopp skills",
     "version": "0.0.1"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "teamropp-skills",
+      "source": "./",
+      "description": "TeamRopp agent skills: alpaca-trading and home-assistant"
+    }
+  ]
 }
