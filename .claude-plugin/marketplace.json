@@ -1,0 +1,12 @@
+{
+  "name": "cropp-agent-skills",
+  "owner": {
+    "name": "Curtis Ropp",
+    "email": "cropp@teamropp.com"
+  },
+  "metadata": {
+    "description": "TeamRopp skills",
+    "version": "0.0.1"
+  },
+  "plugins": []
+}

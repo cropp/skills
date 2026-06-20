@@ -1,0 +1,30 @@
+{
+  "skill_name": "alpaca-trading",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run the RSI mean reversion strategy on my paper account",
+      "expected_output": "Runs run_strategy.py with --account paper --strategy rsi_mean_reversion, checks market hours, evaluates exit conditions on open positions, scans watchlist for entry signals, places bracket orders if signals found"
+    },
+    {
+      "id": 2,
+      "prompt": "Start the trading dashboard",
+      "expected_output": "Runs dashboard.py on port 7432, opens http://localhost:7432, shows account cards with equity/P&L, equity curve chart, positions table with buy dates, and trade history"
+    },
+    {
+      "id": 3,
+      "prompt": "Self-analyze my paper account performance for the last 30 days and update parameters if needed",
+      "expected_output": "Runs self_analyze.py --account paper --days 30, computes Sharpe/drawdown/win rate, applies adjustment rules if metrics are outside bounds, logs all changes with reasoning to analysis_log table"
+    },
+    {
+      "id": 4,
+      "prompt": "How do I set up my Alpaca paper trading account?",
+      "expected_output": "Clear instructions to run setup.py, get API keys from app.alpaca.markets/paper/dashboard, enter key ID and secret, confirms connection and saves to DB, initializes default strategy params"
+    },
+    {
+      "id": 5,
+      "prompt": "Backtest the RSI strategy on AAPL, MSFT, and SPY for the last 90 days",
+      "expected_output": "Runs backtest.py --symbols AAPL,MSFT,SPY --days 90, fetches historical bars from Alpaca, simulates bar-by-bar with position sizing and bracket orders, reports total return, win rate, profit factor, and recent trades"
+    }
+  ]
+}
