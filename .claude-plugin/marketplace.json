@@ -12,7 +12,7 @@
     {
       "name": "teamropp-skills",
       "source": "./",
-      "description": "TeamRopp agent skills: alpaca-trading and home-assistant"
+      "description": "TeamRopp agent skills: alpaca-trading, home-assistant, and jenv"
     }
   ]
 }
