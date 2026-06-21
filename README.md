@@ -6,4 +6,4 @@ startup-only.)
 
 On any other machine:
 claude plugin marketplace add cropp/skills
-claude plugin install teamropp-skills@cropp-agent-skills
+claude plugin install teamropp-skills@teamropp-agent-skills
