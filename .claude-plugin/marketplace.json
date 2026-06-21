@@ -1,18 +1,18 @@
 {
-  "name": "cropp-agent-skills",
+  "name": "teamropp-agent-skills",
   "owner": {
     "name": "Curtis Ropp",
     "email": "cropp@teamropp.com"
   },
   "metadata": {
-    "description": "TeamRopp skills",
-    "version": "0.0.1"
+    "description": "TeamRopp Agent Skills",
+    "version": "0.0.2"
   },
   "plugins": [
     {
       "name": "teamropp-skills",
       "source": "./",
-      "description": "TeamRopp agent skills: alpaca-trading, home-assistant, and jenv"
+      "description": "TeamRopp Agent Skills"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "teamropp-skills",
-  "description": "TeamRopp agent skills: alpaca-trading, home-assistant, and jenv",
+  "description": "TeamRopp Agent Skills",
   "version": "0.0.2",
   "author": {
     "name": "Curtis Ropp",
