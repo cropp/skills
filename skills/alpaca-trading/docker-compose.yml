@@ -1,0 +1,8 @@
+services:
+  dashboard:
+    build: .
+    ports:
+      - "7432:7432"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
